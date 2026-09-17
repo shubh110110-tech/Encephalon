@@ -1,0 +1,42 @@
+ALL EXPERIMENTAL RESULTS — ENCEPHALON
+
+Experiment 1 — MNIST
+
+Flow gate activation rate: 1.63%
+
+Experiment 2 — FashionMNIST (20 epochs)
+
+Baseline: 91.63%
+AlwaysOn: 91.79%
+Encephalon: 92.09%
+Flow rate: 31.36%
+Emergent calibration period: epochs 1-5 Flow lags then permanently overtakes
+
+Experiment 3 — CIFAR-10 single run (30 epochs)
+
+Baseline: 88.48%
+AlwaysOn: 88.52%
+Encephalon: 88.88%
+Flow rate: 21.12%
+
+Experiment 4 — CIFAR-10 3-seed validation
+
+Model	Mean	Std
+Baseline	89.11%	±0.16%
+AlwaysOn	88.41%	±0.29%
+Encephalon	88.69%	±0.04%
+Flow rate	64.34%	±1.57%
+Encephalon − Baseline: −0.42pp
+Encephalon − AlwaysOn: +0.28pp
+Encephalon std of 0.04% — most stable model
+
+Experiment 5 — CIFAR-10-C (19 corruptions × 5 severities)
+
+Flow rate scaling under corruption:
+
+Input	Flow Rate
+CIFAR-10 clean	21.1%
+Fog	32.9%
+Pixelate	32.4%
+Gaussian noise	43.3%
+Contrast	48.5%
