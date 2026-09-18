@@ -39,6 +39,8 @@ A previously unprogrammed training-phase calibration pattern emerged independent
 Under CIFAR-10-C corruptions, flow activation increased substantially without the model being explicitly told that an input was corrupted, reaching 43.3% under Gaussian noise and 48.5% under contrast corruption.
 The strongest robustness improvements were observed under noise corruptions, consistent with the intended role of the alpha-inspired suppression mechanism.
 
+This framework is also being tested on diverse datasets such as ImageNet and also being benchmarked against other architectures such as Resnet.
+
 Experiments are still ongoing. Current results represent an evolving research dataset, with further experiments being conducted to test the architecture across additional datasets, corruption conditions, training configurations, and robustness settings.
 
 The research has been validated through research mentorship and evaluation with Prof. Manolis Kellis at MIT and is being developed toward a research publication under his supervision.
